@@ -11,11 +11,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-<<<<<<< HEAD
-        Main section here
-=======
-        
->>>>>>> feature/build-hero
+        Hero section here
       </div>
     </div>
   </div>
