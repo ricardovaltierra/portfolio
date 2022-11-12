@@ -2,7 +2,17 @@ import React from 'react';
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    This is the main component
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        
+      </div>
+    </div>
   </div>
 );
 
