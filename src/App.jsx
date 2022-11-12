@@ -2,7 +2,7 @@ import styles from  "./style";
 import { Navbar } from "./components";
 
 const App = () => (
-  <div>
+  <div className="bg-primary">
     <Navbar />
 
     <div className={`bg-primary ${styles.flexStart}`}>
