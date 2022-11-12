@@ -6,12 +6,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#18181b",
-        secondary: "#14532d",
+        secondary: "#881337",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimRose: "rgba(251, 113, 133, 0.9)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        worksans: ["Work Sans", "sans-serif"]
       },
     },
     screens: {
