@@ -1,8 +1,15 @@
-import React from 'react';
+import styles from  "./style";
+import { Navbar } from "./components";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    This is the main component
+  <div>
+    <Navbar />
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        Hero section here
+      </div>
+    </div>
   </div>
 );
 
