@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -16,8 +22,16 @@ code {
     monospace;
 }
 
+.text-gradient {
+  background: rgb(16,38,25);
+  background: linear-gradient(36deg, rgba(16,38,25,1) 0%, rgba(20,83,45,1) 35%, rgba(45,212,191,1) 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 nav a:hover {
-  color: #214d76;
+  color: #fda4af;
 }
 
 header .nav-btn {
@@ -28,7 +42,7 @@ header .nav-btn {
   outline: none;
   visibility: hidden;
   opacity: 0;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 @media only screen and (max-width: 1024px){

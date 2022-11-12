@@ -1,13 +1,13 @@
 import styles from  "./style";
-import { Navbar } from "./components";
+import { Navbar, Hero } from "./components";
 
 const App = () => (
-  <div>
+  <div className="bg-primary">
     <Navbar />
 
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart} mt-10`}>
       <div className={`${styles.boxWidth}`}>
-        Hero section here
+        <Hero />
       </div>
     </div>
   </div>
