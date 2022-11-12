@@ -10,12 +10,12 @@ const Navbar = () => {
   }
 
   return (
-  <header className="">
+  <header className=" bg-blue-900 w-full flex items-center justify-between navbar h-[80px] py-0 px-8 text-white">
     <h3>Logo</h3>
     <nav ref={navRef}>
       {navLinks.map((nav, index) => (
-          <a key={index} href={`#${nav.id}`}>
-            <div className="">{nav.title}</div>
+          <a key={index} href={`#${nav.id}`} className="my-0 mx-8 no-underline">
+            {nav.title}
           </a>
         ))
       }
