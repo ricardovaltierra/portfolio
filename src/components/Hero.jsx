@@ -20,8 +20,8 @@ const Hero = () => {
             </span>
           </h2>
 
-          <p className={`${styles.paragraph} max-w-[550px] my-5`}>
-            Enjoying software engineering, systems design, (back&&front) development, and accessibility.
+          <p className={`${styles.paragraph} max-w-[550px] font-thin text-[25px] my-5`}>
+            Interested in software engineering, systems design, {window.innerWidth < 810 ? "back\\front" : "(back&&front)"} development, and accessibility.
           </p>
         </div>
       </div>
