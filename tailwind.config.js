@@ -11,7 +11,7 @@ module.exports = {
         dimRose: "rgba(251, 113, 133, 0.9)",
       },
       fontFamily: {
-        worksans: ["Work Sans", "sans-serif"]
+        worksans: ["Work Sans", "sans-serif"],
       },
     },
     screens: {
