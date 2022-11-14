@@ -1,13 +1,13 @@
-import { useRef } from "react";
-import { IoMdClose } from "react-icons/io";
-import { HiOutlineBars3 } from "react-icons/hi2";
-import { navLinks } from "../constants";
+import { useRef } from 'react';
+import { IoMdClose } from 'react-icons/io';
+import { HiOutlineBars3 } from 'react-icons/hi2';
+import navLinks from '../constants';
 
 const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
+    navRef.current.classList.toggle('responsive_nav');
   };
 
   return (
@@ -23,9 +23,9 @@ const Navbar = () => {
         ref={navRef}
         className="bg-secondary md:flex md:place-items-center ml-auto"
       >
-        {navLinks.map((nav, index) => (
+        {navLinks.map((nav) => (
           <a
-            key={index}
+            key={nav.id}
             href={`#${nav.id}`}
             className="my-0 mx-8 no-underline"
             onClick={showNavbar}
