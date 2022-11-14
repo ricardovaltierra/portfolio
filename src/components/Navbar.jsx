@@ -1,14 +1,14 @@
 import { useRef } from 'react';
-import { IoMdClose } from "react-icons/io";
-import { HiOutlineBars3 } from "react-icons/hi2";
-import { navLinks } from '../constants';
+import { IoMdClose } from 'react-icons/io';
+import { HiOutlineBars3 } from 'react-icons/hi2';
+import navLinks from '../constants';
 
 const Navbar = () => {
   const navRef = useRef();
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  }
+    navRef.current.classList.toggle('responsive_nav');
+  };
 
   return (
   <header className="bg-secondary flex items-center justify-between navbar h-[80px] py-0 px-8 text-white">
@@ -24,17 +24,16 @@ const Navbar = () => {
           <a key={index} href={`#${nav.id}`} className="my-0 mx-8 no-underline" onClick={showNavbar}>
             {nav.title}
           </a>
-        ))
-      }
-      <button onClick={showNavbar} className="nav-btn nav-close-btn">
-        <IoMdClose />
+        ))}
+        <button onClick={showNavbar} className="nav-btn nav-close-btn" type="button">
+          <IoMdClose />
+        </button>
+      </nav>
+      <button onClick={showNavbar} className="nav-btn" type="button">
+        <HiOutlineBars3 />
       </button>
-    </nav>
-    <button onClick={showNavbar} className="nav-btn">
-      <HiOutlineBars3 />
-    </button>
-  </header>
-  )
+    </header>
+  );
 };
 
 export default Navbar;

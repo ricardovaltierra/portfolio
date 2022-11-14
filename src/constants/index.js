@@ -1,4 +1,4 @@
-export const navLinks = [
+const navLinks = [
   {
     id: "home",
     title: "Home"
@@ -8,11 +8,13 @@ export const navLinks = [
     title: "Projects"
   },
   {
-    id: "skills",
-    title: "Skills"
+    id: 'skills',
+    title: 'Skills',
   },
   {
     id: "blog",
     title: "Blog"
   },
 ];
+
+export default navLinks;

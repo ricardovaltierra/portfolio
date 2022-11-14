@@ -1,4 +1,4 @@
-import styles from "../style";
+import styles from '../style';
 
 const Hero = () => {
   return (
@@ -25,8 +25,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+);
 
-export default Hero
+export default Hero;
