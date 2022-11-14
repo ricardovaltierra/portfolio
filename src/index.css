@@ -10,21 +10,18 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .text-gradient {
-  background: rgb(16,38,25);
-  background: linear-gradient(36deg, rgba(16,38,25,1) 0%, rgba(20,83,45,1) 35%, rgba(45,212,191,1) 100%); 
+  background: rgb(16, 38, 25);
+  background: linear-gradient(36deg, rgba(16, 38, 25, 1) 0%, rgba(20, 83, 45, 1) 35%, rgba(45, 212, 191, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -45,7 +42,7 @@ header .nav-btn {
   font-size: 1.9rem;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -76,7 +73,7 @@ header .nav-btn {
     right: 2rem;
   }
 
-  nav a{
+  nav a {
     font-size: 1.5rem;
   }
 }
