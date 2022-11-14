@@ -5,7 +5,7 @@ import { AiFillFile } from 'react-icons/ai';
 
 const Social = () => {
   return (
-    <div className="md:grid md:grid-cols-2 md: gap-8">
+    <div className="md:grid md:grid-cols-2 md:gap-8 md:mt-0 mt-4">
       <div className={`${layout.socialIcons} text-dimRose`}>
         <div className={`${styles.socialIcon} si-container`}>
           <a href="http://www.linkedin.com/in/ricardovaltierra" target="_blank" rel='noreferrer'>
@@ -42,7 +42,7 @@ const Social = () => {
         </div>
       </div>
 
-      <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionInfo} md:mt-0 mt-5`}>
         <p className={`${styles.paragraph}`}>
           CS Engineer inmersed in web development. Specializing in building products as MVP and accessibility implementation.
         </p>
