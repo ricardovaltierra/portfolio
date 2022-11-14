@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-secondary flex items-center justify-between navbar h-[80px] py-0 px-8 text-white">
-      <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full">
+      <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full md:ml-9">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile.png?alt=media&token=2cd2797e-0be7-4cfc-9f3f-ed2ea1cb584c"
           alt="personal photography"
@@ -33,7 +33,11 @@ const Navbar = () => {
             {nav.title}
           </a>
         ))}
-        <button onClick={showNavbar} className="nav-btn nav-close-btn" type="button">
+        <button
+          onClick={showNavbar}
+          className="nav-btn nav-close-btn"
+          type="button"
+        >
           <IoMdClose />
         </button>
       </nav>
