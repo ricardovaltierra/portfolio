@@ -1,8 +1,10 @@
 const styles = {
-  boxWidth: 'xl:max-w-[1280px] w-full',
+  boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading2: "font-worksans font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font worksans font-thin text-dimWhite md:text-[28px] text-[25px] max-w-[550px] my-5 md:leading-[40.8px] leading-[32.8px]",
+  heading2:
+    "font-worksans font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  paragraph:
+    "font worksans font-thin text-dimWhite md:text-[28px] text-[25px] max-w-[550px] my-5 md:leading-[40.8px] leading-[32.8px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -10,12 +12,12 @@ const styles = {
 
   socialIcon: "md:flex justify-center md:py-8",
 
-  paddingX: 'sm:px-16 px-6',
-  paddingY: 'sm:py-16 py-6',
-  padding: 'sm:px-16 px-6 sm:py-12 py-4',
+  paddingX: "sm:px-16 px-6",
+  paddingY: "sm:py-16 py-6",
+  padding: "sm:px-16 px-6 sm:py-12 py-4",
 
-  marginX: 'sm:mx-16 mx-6',
-  marginY: 'sm:my-16 my-6',
+  marginX: "sm:mx-16 mx-6",
+  marginY: "sm:my-16 my-6",
 };
 
 export const layout = {
@@ -27,7 +29,7 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 
-  socialIcons: `w-full ${styles.flexBetween} md:grid md:grid-cols-3 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`
+  socialIcons: `w-full ${styles.flexBetween} md:grid md:grid-cols-3 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`,
 };
 
 export default styles;
