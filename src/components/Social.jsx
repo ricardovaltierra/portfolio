@@ -5,18 +5,18 @@ import { AiFillFile } from 'react-icons/ai';
 
 const Social = () => {
   return (
-    <div className="">
+    <div className="md:grid md:grid-cols-2 md: gap-8">
       <div className={`${layout.socialIcons} text-dimRose`}>
-        <div className="si-container"><FaLinkedin /></div>
-        <div className="md:flex hidden si-container"><FaGithub /></div>
-        <div className="md:flex hidden si-container"><FaTwitter /></div>
-        <div className="si-container"><MdMail /></div>
-        <div className="si-container"><FaWhatsapp /></div>
-        <div className="md:flex hidden si-container"><AiFillFile /></div>
+        <div className={`${styles.socialIcon} si-container`}><FaLinkedin /></div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}><FaGithub /></div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}><FaTwitter /></div>
+        <div className={`${styles.socialIcon} si-container`}><MdMail /></div>
+        <div className={`${styles.socialIcon} si-container`}><FaWhatsapp /></div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}><AiFillFile /></div>
       </div>
 
       <div className={layout.sectionInfo}>
-        <p className={`${styles.paragraph} text-[20px]`}>
+        <p className={`${styles.paragraph}`}>
           CS Engineer inmersed in web development. Specializing in building products as MVP and accessibility implementation.
         </p>
       </div>
