@@ -1,5 +1,5 @@
-import styles from  "./style";
-import { Navbar, Hero } from "./components";
+import styles from './style';
+import { Navbar, Hero } from './components';
 
 const App = () => (
   <div className="bg-primary">

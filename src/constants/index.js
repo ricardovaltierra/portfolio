@@ -1,18 +1,20 @@
-export const navLinks = [
+const navLinks = [
   {
-    id: "projects",
-    title: "Projects"
+    id: 'projects',
+    title: 'Projects',
   },
   {
-    id: "blog",
-    title: "Blog"
+    id: 'blog',
+    title: 'Blog',
   },
   {
-    id: "skills",
-    title: "Skills"
+    id: 'skills',
+    title: 'Skills',
   },
   {
-    id: "home",
-    title: "Home"
+    id: 'home',
+    title: 'Home',
   },
 ];
+
+export default navLinks;
