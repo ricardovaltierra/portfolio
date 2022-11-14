@@ -33,11 +33,11 @@ const Navbar = () => {
             {nav.title}
           </a>
         ))}
-        <button onClick={showNavbar} className="nav-btn nav-close-btn">
+        <button onClick={showNavbar} className="nav-btn nav-close-btn" type="button">
           <IoMdClose />
         </button>
       </nav>
-      <button onClick={showNavbar} className="nav-btn">
+      <button onClick={showNavbar} className="nav-btn" type="button">
         <HiOutlineBars3 />
       </button>
     </header>
