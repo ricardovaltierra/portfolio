@@ -7,12 +7,39 @@ const Social = () => {
   return (
     <div className="md:grid md:grid-cols-2 md: gap-8">
       <div className={`${layout.socialIcons} text-dimRose`}>
-        <div className={`${styles.socialIcon} si-container`}><FaLinkedin /></div>
-        <div className={`${styles.socialIcon} md:flex hidden si-container`}><FaGithub /></div>
-        <div className={`${styles.socialIcon} md:flex hidden si-container`}><FaTwitter /></div>
-        <div className={`${styles.socialIcon} si-container`}><MdMail /></div>
-        <div className={`${styles.socialIcon} si-container`}><FaWhatsapp /></div>
-        <div className={`${styles.socialIcon} md:flex hidden si-container`}><AiFillFile /></div>
+        <div className={`${styles.socialIcon} si-container`}>
+          <a href="http://www.linkedin.com/in/ricardovaltierra" target="_blank" rel='noreferrer'>
+            <FaLinkedin />
+          </a>
+        </div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}>
+          <a href="https://github.com/ricardovaltierra" target="_blank" rel='noreferrer'>
+            <FaGithub />
+          </a>
+        </div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}>
+          <a href="https://twitter.com/RicardoValtie15" target="_blank" rel='noreferrer'>
+            <FaTwitter />
+          </a>
+        </div>
+        <div className={`${styles.socialIcon} si-container`}>
+          <a href="mailto:ricardo_valtierra@outlook.com" target="_blank" rel='noreferrer'>
+            <MdMail />
+          </a>
+          
+        </div>
+        <div className={`${styles.socialIcon} si-container`}>
+          <a href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering" target="_blank" rel='noreferrer'>
+            <FaWhatsapp />
+          </a>
+          
+        </div>
+        <div className={`${styles.socialIcon} md:flex hidden si-container`}>
+          <a href="https://bit.ly/35RxdGT" target="_blank" rel='noreferrer'>
+            <AiFillFile />
+          </a>
+          
+        </div>
       </div>
 
       <div className={layout.sectionInfo}>

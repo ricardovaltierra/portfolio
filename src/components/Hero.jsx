@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
           </h2>
 
-          <p className={`${styles.paragraph} text-[25px]`}>
+          <p className={`${styles.paragraph} text-[28px]`}>
             Interested in software engineering, systems design, {window.innerWidth < 810 ? "back\\front" : "(back&&front)"} development, and accessibility.
           </p>
         </div>
