@@ -24,7 +24,7 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 
-  hero: `${styles.flexCenter} md:grid grid-cols-3 justify-between items-center md:gap-x-3 md:w-[30%] md:text-[90px] text-[25px] hover:text-dimWhite`
+  social: `w-full grid grid-col-3 gap-5 hover:text-dimWhite`
 };
 
 export default styles;
