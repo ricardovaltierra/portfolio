@@ -84,11 +84,8 @@ header .nav-btn {
 /* Social */
 
 .si-container {
-  display: flex;
-  justify-content: center;
   -webkit-transition: color 1s;
   -moz-transition: color 1s;
   -o-transition: color 1s;
   transition: color 1s;
-  margin: 1rem;
 }

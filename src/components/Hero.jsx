@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
           </h2>
 
-          <p className={`${styles.paragraph} max-w-[550px] font-thin text-[25px] my-5`}>
+          <p className={`${styles.paragraph} text-[25px]`}>
             Interested in software engineering, systems design, {window.innerWidth < 810 ? "back\\front" : "(back&&front)"} development, and accessibility.
           </p>
         </div>
