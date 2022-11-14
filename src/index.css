@@ -90,4 +90,5 @@ header .nav-btn {
   -moz-transition: color 1s;
   -o-transition: color 1s;
   transition: color 1s;
+  margin: 1rem;
 }
