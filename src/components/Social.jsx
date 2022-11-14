@@ -62,8 +62,8 @@ const Social = () => (
 
     <div className={`${layout.sectionInfo} md:mt-0 mt-5`}>
       <p className={`${styles.paragraph}`}>
-        CS Engineer inmersed in web development. Specializing in building
-        products as MVP and accessibility implementation.
+        CS Engineer immersed in web development. Specializing in building
+        MVP products and accessibility implementation.
       </p>
     </div>
   </div>

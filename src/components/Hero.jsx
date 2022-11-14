@@ -8,7 +8,7 @@ const Hero = () => (
       <div className="flex flex-col justify-between items-start w-full">
         <h1 className="flex-1 font-worksans font-light ss:text-[92px] text-[62px] text-dimWhite ss:leading-[120px] leading-[70px]">
           Ricardo
-          <span>Valtierra</span>
+          <span> Valtierra</span>
           {' '}
         </h1>
 
@@ -18,8 +18,9 @@ const Hero = () => (
           {' '}
           <span className="ss:text-[40px] text-[35px]">
             RoR
-            <small className="ss:text-[31px]">(Ruby)</small>
+            <small className="ss:text-[31px]">(Ruby) </small>
             &
+            {' '}
             <br className="sm:hidden block" />
             React
             <small className="ss:text-[31px]">(JS)</small>
@@ -29,7 +30,7 @@ const Hero = () => (
 
         <p className={`${styles.paragraph} text-[28px]`}>
           Interested in software engineering, systems design,
-          {window.innerWidth < 810 ? 'back\\front' : '(back&&front)'}
+          {window.innerWidth < 810 ? ' back\\front ' : ' (back&&front) '}
           development, and accessibility.
         </p>
       </div>
