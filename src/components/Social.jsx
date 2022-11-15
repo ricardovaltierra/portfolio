@@ -6,7 +6,7 @@ import { AiFillFile } from 'react-icons/ai';
 import styles, { layout } from '../style';
 
 const Social = () => (
-  <div className="md:grid md:grid-cols-2 md:gap-8 md:mt-0 mt-4">
+  <div className="md:grid md:grid-cols-2 md:gap-8 my-[50px]">
     <div className={`${layout.socialIcons} text-dimRose`}>
       <div className={`${styles.socialIcon} si-container`}>
         <a
