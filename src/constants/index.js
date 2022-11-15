@@ -1,4 +1,4 @@
-const navLinks = [
+export const navLinks = [
   {
     id: 'home',
     title: 'Home',
@@ -17,4 +17,19 @@ const navLinks = [
   },
 ];
 
-export default navLinks;
+export const projectsContent = [
+  {
+    id: 'tasktrack',
+    image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/tasktracker.png?alt=media&token=702986be-ff21-45ab-8d57-610e69fae7dc',
+    alternativeText: 'Tasktrack App',
+    title: 'Task Track App',
+    paragrapgh: 'Follow your todo&apos; progress',
+    stack: {
+      1: 'Rails',
+      2: 'React',
+      3: 'Redux',
+    },
+    githubLink: 'https://github.com/ricardovaltierra/task-track-app',
+    liveURL: 'ttps://tasktrack.netlify.app/',
+  },
+];
