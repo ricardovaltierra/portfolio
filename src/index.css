@@ -88,3 +88,9 @@ header .nav-btn {
 
 /* Portfolio */
 
+.anchor-icons {
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+}
