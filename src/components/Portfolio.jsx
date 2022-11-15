@@ -10,8 +10,8 @@ const Portfolio = () => (
       Projects
     </h2>
     <div className="flex md:flex-row flex-col items-center md:my-5 my-8">
-      {projectsContent.map((item) => (
-        <Card key={item.id} {...item} />
+      {projectsContent.map((project) => (
+        <Card key={project.id} project anotherProp="HEY! ANOTHER PROP!" />
       ))}
     </div>
   </div>
