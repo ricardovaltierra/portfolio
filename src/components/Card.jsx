@@ -14,19 +14,20 @@ const Card = (project) => {
   } = project;
 
   return (
-    <div className="md:my-12 mb-[60px] w-60 bg-dimWhiteReduced text-dimWhite rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-      <img className="h-40 object-cover rounded-xl opacity-60" src={image} alt={alternativeText} />
+    <div className="col-auto md:my-12 mb-[60px] md:mx-5 w-full bg-dimWhiteReduced text-dimWhite rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+      <img className="w-full h-40 object-cover rounded-xl opacity-60" src={image} alt={alternativeText} />
       <div className="p-2">
         <h2 className="font-thin text-lg ">
           {title}
         </h2>
         <p className="text-sm text-gr">
           {paragraph}
+          {' .'}
+          <br />
           {' '}
-          |
-          <br className="sm:hidden block" />
-          {' '}
-          {stack.map((item, index) => `${item} ${index === stack.length - 1 ? '.' : ', '}`)}
+          <span className="font-light">
+            {stack.map((item, index) => `${item} ${index === stack.length - 1 ? '.' : ', '}`)}
+          </span>
         </p>
       </div>
       <div className="flex flex-row m-2 text-[30px] text-primary">
