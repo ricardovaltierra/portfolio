@@ -6,24 +6,29 @@ const SEO = () => {
   const {
     title,
     description,
-    type,
-    siteName,
-    locale,
-    author,
     image,
   } = siteMetadata;
 
   return (
     <Helmet>
+      {/* <!-- Primary Meta Tags --> */}
       <title>{title}</title>
+      <meta name="title" content={title} />
       <meta name="description" content={description} />
+
+      {/* <!-- Open Graph / Facebook --> */}
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://deploy-preview-8--temporary-portfolio-deploy.netlify.app/" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:type" content={type} />
-      <meta property="og:site_name" content={siteName} />
-      <meta property="og:locale" content={locale} />
-      <meta property="article:author" content={author} />
-      <meta property="ig:image" content={image} />
+      <meta property="og:image" content={image} />
+
+      {/* <!-- Twitter --> */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://deploy-preview-8--temporary-portfolio-deploy.netlify.app/" />
+      <meta property="twitter:title" content={title} />
+      <meta property="twitter:description" content={description} />
+      <meta property="twitter:image" content={image} />
     </Helmet>
   );
 };
