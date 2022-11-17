@@ -59,3 +59,13 @@ export const projectsContent = [
     liveURL: 'https://newsweek-responsive.netlify.app/',
   },
 ];
+
+export const siteMetadata = {
+  title: 'Ricardo Valtierra | Portfolio',
+  description: 'Ricardo Valtierra\'s personal portfolio',
+  type: 'website',
+  siteName: 'ricardovaltierra.online',
+  locale: 'en_US',
+  author: 'Ricardo Valtierra (who else?)',
+  image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/linkedin_p.png?alt=media&token=fe3fabb4-01a1-455d-b612-96d5d5bf6b92',
+};
