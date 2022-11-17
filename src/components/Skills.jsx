@@ -129,7 +129,7 @@ const Skills = () => (
       </div>
       <div className="wrap flex items-center">
         <div className="text-part text-[30px] font-light">
-          Tailwind
+          Jira
         </div>
         <div className="image-part">
           <div className={`${styles.icon} ski-container`}>
