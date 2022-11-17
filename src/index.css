@@ -98,7 +98,6 @@ header .nav-btn {
 /* Skills */
 
 .ski-container {
-  display: flex;
   margin: 1rem 0;
   -webkit-transition: color 1s;
   -moz-transition: color 1s;

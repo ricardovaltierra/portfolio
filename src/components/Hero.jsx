@@ -1,7 +1,7 @@
 import styles from '../style';
 
 const Hero = () => (
-  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} my-[50px]`}>
+  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} mt-[50px] md:mb-[150px] mb-[100px]`}>
     <div
       className={`flex-1 ${styles.flexStart} md:flex-row flex-col xl:px-0 sm:px-16 px-6`}
     >

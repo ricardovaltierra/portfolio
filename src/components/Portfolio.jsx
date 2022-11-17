@@ -3,7 +3,7 @@ import { projectsContent } from '../constants';
 import Card from './Card';
 
 const Portfolio = () => (
-  <div className="w-full flex flex-col justify-center md:my-[90px] my-[50px]">
+  <div className="w-full flex flex-col justify-center md:mb-[200px] mb-[100px]">
     <h2 className="text-dimWhite md:my-0 my-12 font-worksans font-light ss:text-[45px] text-[40px] ss:leading-[100px] leading-[45px] ">
       Featured
       {' '}
