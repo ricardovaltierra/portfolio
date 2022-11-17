@@ -141,7 +141,7 @@ const Skills = () => (
     <div className="md:flex items-center md:order-none order-first md:mb-0 mb-8">
       <p className={`${styles.paragraph} `}>
         Some of the languages & tools I&apos;ve had the opportunity to work with.
-        <span className="sm:hidden block">(Click on them 😊️)</span>
+        <span className="sm:hidden block">(You can click them)</span>
       </p>
     </div>
   </section>
