@@ -1,6 +1,6 @@
 import styles from './style';
 import {
-  Navbar, Hero, Social, Portfolio,
+  Navbar, Hero, Social, Portfolio, Skills,
 } from './components';
 import SEO from './components/SEO';
 
@@ -20,6 +20,7 @@ const App = () => (
         <div className={`${styles.boxWidth}`}>
           <Social />
           <Portfolio />
+          <Skills />
         </div>
       </div>
     </div>
