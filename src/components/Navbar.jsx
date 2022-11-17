@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { HiOutlineBars3 } from 'react-icons/hi2';
-import navLinks from '../constants';
+import { navLinks } from '../constants';
 
 const Navbar = () => {
   const navRef = useRef();

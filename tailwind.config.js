@@ -8,6 +8,7 @@ module.exports = {
         primary: '#18181b',
         secondary: '#881337',
         dimWhite: 'rgba(255, 255, 255, 0.7)',
+        dimWhiteReduced: 'rgba(255, 255, 255, 0.1)',
         dimRose: 'rgba(251, 113, 133, 0.9)',
       },
       fontFamily: {
