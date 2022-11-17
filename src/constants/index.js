@@ -1,3 +1,5 @@
+import linkedinP from '../assets/linkedin_p.png';
+
 export const navLinks = [
   {
     id: 'home',
@@ -59,3 +61,13 @@ export const projectsContent = [
     liveURL: 'https://newsweek-responsive.netlify.app/',
   },
 ];
+
+export const siteMetadata = {
+  title: 'Ricardo Valtierra | Portfolio',
+  description: 'Ricardo Valtierra\'s personal portfolio',
+  type: 'website',
+  siteName: 'ricardovaltierra.online',
+  locale: 'en_US',
+  author: 'Ricardo Valtierra (who else?)',
+  image: linkedinP,
+};
