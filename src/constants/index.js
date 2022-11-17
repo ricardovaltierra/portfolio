@@ -1,5 +1,3 @@
-import linkedinP from '../assets/linkedin_p.png';
-
 export const navLinks = [
   {
     id: 'home',
@@ -69,5 +67,5 @@ export const siteMetadata = {
   siteName: 'ricardovaltierra.online',
   locale: 'en_US',
   author: 'Ricardo Valtierra (who else?)',
-  image: linkedinP,
+  image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/linkedin_p.png?alt=media&token=fe3fabb4-01a1-455d-b612-96d5d5bf6b92',
 };
