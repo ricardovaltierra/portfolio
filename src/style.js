@@ -10,7 +10,7 @@ const styles = {
   flexStart: 'flex justify-center items-start',
   flexBetween: 'flex flex-row justify-between items-center',
 
-  socialIcon: 'md:flex justify-center md:py-8',
+  icon: 'md:flex justify-center md:py-8',
 
   paddingX: 'sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
@@ -29,7 +29,7 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 
-  socialIcons: `w-full ${styles.flexBetween} md:grid md:grid-cols-3 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`,
+  iconContainer: `w-full ${styles.flexBetween} md:grid md:grid-cols-3 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`,
 };
 
 export default styles;
