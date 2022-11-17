@@ -94,3 +94,14 @@ header .nav-btn {
   -o-transition: background-color 1s ease;
   transition: background-color 1s ease;
 }
+
+/* Skills */
+
+.ski-container {
+  display: flex;
+  margin: 1rem 0;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}

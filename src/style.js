@@ -10,6 +10,8 @@ const styles = {
   flexStart: 'flex justify-center items-start',
   flexBetween: 'flex flex-row justify-between items-center',
 
+  center: 'justify-center items-center',
+
   icon: 'md:flex justify-center md:py-8',
 
   paddingX: 'sm:px-16 px-6',
@@ -29,7 +31,8 @@ export const layout = {
 
   sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 
-  iconContainer: `w-full ${styles.flexBetween} md:grid md:grid-cols-3 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`,
+  socialIcons: `w-full md:grid md:grid-cols-3 ${styles.flexBetween} md:text-[65px] text-[4rem] px-4 hover:text-dimWhite`,
+  toolsIcons: 'w-full grid md:grid-cols-3 grid-cols-2 md:text-[65px] text-[4rem] px-4 hover:text-dimWhite',
 };
 
 export default styles;
