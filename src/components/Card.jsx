@@ -20,7 +20,7 @@ const Card = (project) => {
         <h2 className="font-thin text-lg ">
           {title}
         </h2>
-        <p className="text-sm text-gr">
+        <p className="text-md text-gr">
           {paragraph}
           {' .'}
           <br />
