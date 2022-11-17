@@ -15,12 +15,12 @@ import { DiJira } from 'react-icons/di';
 import styles, { layout } from '../style';
 
 const Skills = () => (
-  <section className="md:grid md:grid-cols-2 md:gap-8 flex flex-col my-[50px]">
+  <section className="md:grid md:grid-cols-2 md:gap-8 flex flex-col mb-[150px]">
     <div className={`${layout.toolsIcons} text-dimRose`}>
       <div className={`${styles.icon} ski-container`}>
         <SiRubyonrails />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiPostgresql />
       </div>
       <div className={`${styles.icon} ski-container`}>
@@ -29,22 +29,22 @@ const Skills = () => (
       <div className={`${styles.icon} ski-container`}>
         <SiReact />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiRedux />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiGraphql />
       </div>
       <div className={`${styles.icon} ski-container`}>
         <SiGit />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiDocker />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiHeroku />
       </div>
-      <div className={`${styles.icon} ski-container`}>
+      <div className={`${styles.icon} md:flex hidden ski-container`}>
         <SiLinux />
       </div>
       <div className={`${styles.icon} ski-container`}>
