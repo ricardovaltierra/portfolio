@@ -17,41 +17,125 @@ import styles, { layout } from '../style';
 const Skills = () => (
   <section className="md:grid md:grid-cols-2 md:gap-8 flex flex-col mb-[150px]">
     <div className={`${layout.toolsIcons} text-dimRose`}>
-      <div className={`${styles.icon} ski-container`}>
-        <SiRubyonrails />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          Ruby on Rails
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiRubyonrails />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiPostgresql />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          PostgreSQL
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiPostgresql />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} ski-container`}>
-        <SiTypescript />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          TypeScript
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiTypescript />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} ski-container`}>
-        <SiReact />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          React
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiReact />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiRedux />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          Redux
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiRedux />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiGraphql />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          GraphQL
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiGraphql />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} ski-container`}>
-        <SiGit />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          Git
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiGit />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiDocker />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          Docker
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiDocker />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiHeroku />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          Heroku
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiHeroku />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} md:flex hidden ski-container`}>
-        <SiLinux />
+      <div className="wrap md:flex hidden items-center">
+        <div className="text-part text-[30px] font-light">
+          Linux
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiLinux />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} ski-container`}>
-        <SiTailwindcss />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          Tailwind
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <SiTailwindcss />
+          </div>
+        </div>
       </div>
-      <div className={`${styles.icon} ski-container`}>
-        <DiJira />
+      <div className="wrap flex items-center">
+        <div className="text-part text-[30px] font-light">
+          Tailwind
+        </div>
+        <div className="image-part">
+          <div className={`${styles.icon} ski-container`}>
+            <DiJira />
+          </div>
+        </div>
       </div>
     </div>
     <div className="md:flex items-center md:order-none order-first md:mb-0 mb-8">
