@@ -7,7 +7,7 @@ import styles, { layout } from '../style';
 
 const Social = () => (
   <div className="md:grid md:grid-cols-2 md:gap-8 my-[50px]">
-    <div className={`${layout.iconContainer} text-dimRose`}>
+    <div className={`${layout.socialIcons} text-dimRose`}>
       <div className={`${styles.icon} si-container`}>
         <a
           href="http://www.linkedin.com/in/ricardovaltierra"
