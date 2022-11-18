@@ -94,3 +94,45 @@ header .nav-btn {
   -o-transition: background-color 1s ease;
   transition: background-color 1s ease;
 }
+
+/* Skills */
+
+.ski-container {
+  margin: 1rem 0;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+}
+
+.wrap {
+  position: relative;
+  height: 150px;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%);
+}
+
+.image-part {
+  transform: translateX(0%);
+}
+
+.text-part {
+  text-align: center;
+  transform: translateX(-120%);
+}
+
+.text-part,
+.image-part {
+  position: absolute;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.wrap:hover .image-part {
+  transform: translateX(120%);
+}
+
+.wrap:hover .text-part {
+  transform: translateX(0%);
+}
