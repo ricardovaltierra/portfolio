@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { AiFillFile } from 'react-icons/ai';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 import styles, { layout } from '../style';
 
@@ -16,10 +17,19 @@ const Footer = () => (
       <div className={`w-full ${layout.section}`}>
         <div className={`${styles.flexBetween} w-full`}>
           <a
+            href="https://twitter.com/RicardoValtie15"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
+          >
+            <FaTwitter />
+            <span className={styles.linkHover}>Twitter</span>
+          </a>
+          <a
             href="http://www.linkedin.com/in/ricardovaltierra"
             target="_blank"
             rel="noreferrer"
-            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose`}
+            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:flex hidden`}
           >
             <FaLinkedin />
             <span className={styles.linkHover}>LinkedIn</span>
@@ -37,10 +47,19 @@ const Footer = () => (
             href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering"
             target="_blank"
             rel="noreferrer"
-            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose`}
+            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:flex hidden`}
           >
             <MdMail />
             <span className={styles.linkHover}>Email</span>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering"
+            target="_blank"
+            rel="noreferrer"
+            className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
+          >
+            <AiFillFile />
+            <span className={styles.linkHover}>Resume</span>
           </a>
         </div>
       </div>
