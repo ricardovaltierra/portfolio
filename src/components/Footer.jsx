@@ -4,7 +4,7 @@ import { MdMail } from 'react-icons/md';
 import styles, { layout } from '../style';
 
 const Footer = () => (
-  <section className="flex md:flex-row flex-col pt-[60px] border-t-[1px] border-t-[#3F3E45] mb-12">
+  <section className="flex md:grid grid-cols-2 flex-col pt-[60px] border-t-[1px] border-t-[#3F3E45] mb-12">
     <div className={`${styles.flexStart} flex-col md:grid grid-rows-2 md:mb-8 w-full`}>
       <div className="md:w-50 w-full flex-1 flex flex-col justify-start mr-10">
         <h2 className={`${styles.heading2} font-light`}>
@@ -81,6 +81,11 @@ const Footer = () => (
           <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>Mission & Vision</a></li>
         </ul>
       </div>
+    </div>
+    <div className={`${styles.flexBetween} mb-8 col-span-2 md:ml-[65px] md:mt-0 mt-12`}>
+      <p className="md:text-[20px] text-dimWhite md:font-light font-thin tracking-wide">
+        All rights reserved &copy; Ricardo Valtierra 2022
+      </p>
     </div>
   </section>
 );
