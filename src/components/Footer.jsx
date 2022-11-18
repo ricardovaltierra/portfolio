@@ -57,9 +57,9 @@ const Footer = () => (
       <div className="w-60 md:ml-4">
         <h3 className={`${styles.heading2} font-light`}><small>General</small></h3>
         <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col gap-6">
-          <li><a href="https://aboutme.com" className={styles.linkHover}>About me</a></li>
+          <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>About me</a></li>
           <li><a href="https://medium.com/@ricardo_valtierra" className={styles.linkHover}>Medium</a></li>
-          <li><a href="https://somemissionandvision.com" className={styles.linkHover}>Mission & Vision</a></li>
+          <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>Mission & Vision</a></li>
         </ul>
       </div>
     </div>
