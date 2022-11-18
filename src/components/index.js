@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Social from './Social';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
+import Footer from './Footer';
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Social,
   Portfolio,
   Skills,
+  Footer,
 };

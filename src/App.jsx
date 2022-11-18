@@ -1,6 +1,6 @@
 import styles from './style';
 import {
-  Navbar, Hero, Social, Portfolio, Skills,
+  Navbar, Hero, Social, Portfolio, Skills, Footer,
 } from './components';
 import SEO from './components/SEO';
 
@@ -21,6 +21,7 @@ const App = () => (
           <Social />
           <Portfolio />
           <Skills />
+          <Footer />
         </div>
       </div>
     </div>
