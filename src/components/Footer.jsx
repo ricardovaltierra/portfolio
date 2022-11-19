@@ -35,7 +35,7 @@ const Footer = () => (
             <span className={styles.linkHover}>LinkedIn</span>
           </a>
           <a
-            href="mailto:ricardo_valtierra@outlook.com"
+            href="https://github.com/ricardovaltierra"
             target="_blank"
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose`}
@@ -44,7 +44,7 @@ const Footer = () => (
             <span className={styles.linkHover}>GitHub</span>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering"
+            href="mailto:ricardo_valtierra@outlook.com"
             target="_blank"
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:flex hidden`}
@@ -53,7 +53,7 @@ const Footer = () => (
             <span className={styles.linkHover}>Email</span>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering"
+            href="https://bit.ly/35RxdGT"
             target="_blank"
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
@@ -83,7 +83,7 @@ const Footer = () => (
       </div>
     </div>
     <div className={`${styles.flexBetween} col-span-2 md:ml-[65px] md:mt-0 mt-12`}>
-      <p className="md:text-[20px] text-dimWhite md:font-light font-thin tracking-wide">
+      <p className="md:text-[20px] text-dimWhite md:font-light font-thin tracking-widest">
         All rights reserved &copy; Ricardo Valtierra 2022.
       </p>
     </div>
