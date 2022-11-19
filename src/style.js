@@ -21,7 +21,7 @@ const styles = {
   marginX: 'sm:mx-16 mx-6',
   marginY: 'sm:my-16 my-6',
 
-  linkHover: 'text-dimWhite hover:text-dimRose md:underline decoration-dotted transition duration-500',
+  linkHover: 'text-dimWhite hover:text-dimRose md:underline decoration-1 transition duration-500 ',
 };
 
 export const layout = {
