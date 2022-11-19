@@ -2,9 +2,9 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   heading2:
-    'text-dimWhite md:mt-0 mt-4 font-worksans font-thin ss:text-[45px] text-[33px] ss:leading-[100px] leading-[45px]',
+    'text-dimWhite md:mt-0 mt-4 font-worksans font-thin ss:text-[40px] text-[33px] ss:leading-[100px] leading-[45px]',
   paragraph:
-    'font worksans font-thin text-dimWhite md:text-[28px] text-[25px] max-w-[550px] my-5 md:leading-[40.8px] leading-[32.8px]',
+    'font worksans font-thin text-dimWhite md:text-[24px] text-[25px] max-w-[550px] my-5 md:leading-[40.8px] leading-[32.8px]',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
