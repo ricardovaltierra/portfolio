@@ -66,17 +66,17 @@ const Footer = () => (
     </div>
     <div className={`${styles.flexStart} flex-col md:flex-row mb-8 w-full`}>
       <div className="w-60 md:mr-4">
-        <h3 className={`${styles.heading2} font-light`}><small>Contact</small></h3>
-        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col gap-6">
+        <h3 className={`${styles.heading2} font-light mb-2.5`}><small>Contact</small></h3>
+        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col space-y-4">
           <li><a href="mailto:ricardo_valtierra@outlook.com" className={styles.linkHover}>Email me</a></li>
           <li><a href="https://calendly.com/ricardo_valtierra/work-dev-talk" className={styles.linkHover}>Chat with me</a></li>
           <li><a href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering" className={styles.linkHover}>Message me</a></li>
         </ul>
       </div>
       <div className="w-60 md:ml-4">
-        <h3 className={`${styles.heading2} font-light`}><small>General</small></h3>
-        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col gap-6">
-          <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>About me</a></li>
+        <h3 className={`${styles.heading2} font-light mb-2.5 md:mt-0 mt-[60px]`}><small>General</small></h3>
+        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col space-y-4">
+          <li><a href="https://ricardovaltierra.online" className={`${styles.linkHover}`}>About me</a></li>
           <li><a href="https://medium.com/@ricardo_valtierra" className={styles.linkHover}>Medium</a></li>
           <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>Mission & Vision</a></li>
         </ul>
