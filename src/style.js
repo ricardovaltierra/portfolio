@@ -2,7 +2,7 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   heading2:
-    'font-worksans font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full',
+    'text-dimWhite md:mt-0 mt-4 font-worksans font-thin ss:text-[45px] text-[33px] ss:leading-[100px] leading-[45px]',
   paragraph:
     'font worksans font-thin text-dimWhite md:text-[28px] text-[25px] max-w-[550px] my-5 md:leading-[40.8px] leading-[32.8px]',
 
@@ -20,10 +20,12 @@ const styles = {
 
   marginX: 'sm:mx-16 mx-6',
   marginY: 'sm:my-16 my-6',
+
+  linkHover: 'text-dimWhite hover:text-dimRose md:underline decoration-dotted transition duration-500',
 };
 
 export const layout = {
-  section: `flex md:flex-row flex col ${styles.paddingY}`,
+  section: `flex md:flex-row flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
