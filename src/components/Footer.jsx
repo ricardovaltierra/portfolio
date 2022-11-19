@@ -67,7 +67,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} flex-col md:flex-row mb-8 w-full`}>
       <div className="w-60 md:mr-4">
         <h3 className={`${styles.heading2} font-light mb-2.5`}><small>Contact</small></h3>
-        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col space-y-4">
+        <ul className="text-[23px] font-thin text-dimWhite md:flex flex-col space-y-4">
           <li><a href="mailto:ricardo_valtierra@outlook.com" className={styles.linkHover}>Email me</a></li>
           <li><a href="https://calendly.com/ricardo_valtierra/work-dev-talk" className={styles.linkHover}>Chat with me</a></li>
           <li><a href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering" className={styles.linkHover}>Message me</a></li>
@@ -75,15 +75,15 @@ const Footer = () => (
       </div>
       <div className="w-60 md:ml-4">
         <h3 className={`${styles.heading2} font-light mb-2.5 md:mt-0 mt-[60px]`}><small>General</small></h3>
-        <ul className="text-[24px] font-thin text-dimWhite md:flex flex-col space-y-4">
+        <ul className="text-[23px] font-thin text-dimWhite md:flex flex-col space-y-4">
           <li><a href="https://ricardovaltierra.online" className={`${styles.linkHover}`}>About me</a></li>
           <li><a href="https://medium.com/@ricardo_valtierra" className={styles.linkHover}>Medium</a></li>
           <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>Mission & Vision</a></li>
         </ul>
       </div>
     </div>
-    <div className={`${styles.flexBetween} col-span-2 md:ml-[65px] md:mt-0 mt-12`}>
-      <p className="w-full md:text-[22px] text-[1.1rem] md:text-start text-center text-dimWhite md:font-light font-thin">
+    <div className={`${styles.flexBetween} col-span-2 md:ml-[13px] md:mt-0 mt-12`}>
+      <p className="w-full md:text-[17px] text-[1.1rem] md:text-start text-center text-dimWhite md:font-light font-thin md:tracking-widest">
         All rights reserved &copy; Ricardo Valtierra 2022.
       </p>
     </div>
