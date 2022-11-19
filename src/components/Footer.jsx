@@ -83,7 +83,7 @@ const Footer = () => (
       </div>
     </div>
     <div className={`${styles.flexBetween} col-span-2 md:ml-[65px] md:mt-0 mt-12`}>
-      <p className="md:text-[20px] text-dimWhite md:font-light font-thin tracking-widest">
+      <p className="w-full md:text-[22px] text-[1.1rem] md:text-start text-center text-dimWhite md:font-light font-thin">
         All rights reserved &copy; Ricardo Valtierra 2022.
       </p>
     </div>
