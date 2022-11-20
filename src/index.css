@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: #18181b;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +29,10 @@ nav a {
 
 nav a:hover {
   color: #fda4af;
+}
+
+.activated {
+  color: #881337;
 }
 
 header .nav-btn {

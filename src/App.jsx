@@ -1,6 +1,6 @@
 import styles from './style';
 import {
-  Navbar, Hero, Social, Portfolio, Skills, Footer,
+  Hero, Social, Portfolio, Skills,
 } from './components';
 import SEO from './components/SEO';
 
@@ -8,9 +8,7 @@ const App = () => (
   <>
     <SEO />
     <div className="bg-primary">
-      <Navbar />
-
-      <div className={`bg-primary ${styles.flexStart} mt-10`}>
+      <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -21,7 +19,6 @@ const App = () => (
           <Social />
           <Portfolio />
           <Skills />
-          <Footer />
         </div>
       </div>
     </div>
