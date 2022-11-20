@@ -2,29 +2,48 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import {
   createBrowserRouter,
+  Outlet,
   RouterProvider,
 } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
-import { Portfolio, Skills } from './components';
+import {
+  Footer,
+  Navbar,
+  Portfolio,
+  Skills,
+} from './components';
 import './index.css';
+
+const AppLayout = () => (
+  <>
+    <Navbar />
+    <Outlet />
+    <Footer />
+  </>
+);
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App />,
-  },
-  {
-    path: '/projects',
-    element: <Portfolio />,
-  },
-  {
-    path: '/skills',
-    element: <Skills />,
-  },
-  {
-    path: '/about',
-    element: <div className="">About</div>,
+    element: <AppLayout />,
+    children: [
+      {
+        path: '/',
+        element: <App />,
+      },
+      {
+        path: '/projects',
+        element: <Portfolio />,
+      },
+      {
+        path: '/skills',
+        element: <Skills />,
+      },
+      {
+        path: '/about',
+        element: <div className="">About</div>,
+      },
+    ],
   },
 ]);
 
