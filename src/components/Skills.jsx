@@ -15,7 +15,7 @@ import { DiJira } from 'react-icons/di';
 import styles, { layout } from '../style';
 
 const Skills = () => (
-  <section className="md:grid md:grid-cols-2 md:gap-8 flex flex-col mb-[150px]">
+  <section className="md:grid md:grid-cols-2 md:gap-8 flex flex-col mb-[150px] md:mx-[65px] mx-[1.7rem]">
     <div className={`${layout.toolsIcons} text-dimRose`}>
       <div className="wrap flex items-center">
         <div className="text-part text-[30px] font-light">
@@ -139,7 +139,7 @@ const Skills = () => (
       </div>
     </div>
     <div className="md:flex items-center md:order-none order-first md:mb-0 mb-8">
-      <p className={`flex flex-col gap-5 ${styles.paragraph} `}>
+      <p className={`flex flex-col gap-5 ${styles.paragraph}`}>
         Some of the languages & tools I&apos;ve had the opportunity to work with.
         <span className="sm:hidden block text-[22px] text-dimRose">(Click on them)</span>
       </p>
