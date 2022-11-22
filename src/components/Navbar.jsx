@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { IconContext } from 'react-icons';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
+import styles from '../style';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -14,8 +15,8 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: 'rgba(255, 255, 255, 0.7)' }}>
         <nav className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo">
-              <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full md:ml-9">
+            <Link to="/" className={styles.flexCenter} onClick={closeMobileMenu}>
+              <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full navbar-icon">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile.png?alt=media&token=2cd2797e-0be7-4cfc-9f3f-ed2ea1cb584c"
                   alt="personal photography"
