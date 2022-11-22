@@ -22,7 +22,7 @@ code {
 
 .navbar {
   background: #881337;
-  height: 80px;
+  height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ code {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 65px;
 }
 
 .container {
@@ -44,8 +44,8 @@ code {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .navbar-logo {
@@ -86,8 +86,8 @@ code {
 
 .nav-links:hover {
   color: rgba(251, 113, 133, 0.9);
-  transform: scale(1.2);
-  transition: all 0.3s ease;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
 }
 
 .activated {
@@ -102,7 +102,13 @@ code {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 965px) {
+
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
   .NavbarItems {
     position: relative;
   }
@@ -111,8 +117,9 @@ code {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 5rem;
     position: absolute;
-    top: 80px;
+    top: 65px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -128,15 +135,15 @@ code {
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
 
   .nav-links:hover {
     color: rgba(251, 113, 133, 0.9);
-    transform: scale(1.2);
-    transition: all 0.3s ease;
+    transform: scale(0.9);
+    transition: all 0.5s ease;
   }
 
   .nav-item {
