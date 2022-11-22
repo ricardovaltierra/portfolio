@@ -8,6 +8,7 @@ import {
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
 import {
+  About,
   Footer,
   Navbar,
   Portfolio,
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/about',
-        element: <div className="">About</div>,
+        element: <About />,
       },
     ],
   },

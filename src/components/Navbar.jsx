@@ -6,6 +6,7 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   return (
     <>
@@ -25,13 +26,23 @@ const Navbar = () => {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <NavLink to="/" className={({ isActive }) => `nav-links ${isActive ? 'activated' : ''}`}>
+              <NavLink to="/" className={({ isActive }) => `nav-links ${isActive ? 'activated' : ''}`} onClick={closeMobileMenu}>
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/projects" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`}>
+              <NavLink to="/projects" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
                 Projects
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/skills" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
+                Skills
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/about" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
+                About
               </NavLink>
             </li>
           </ul>
