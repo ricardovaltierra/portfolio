@@ -15,6 +15,7 @@ import {
   Skills,
 } from './components';
 import './index.css';
+import ErrorPage from './components/ErrorPage';
 
 const AppLayout = () => (
   <>
@@ -27,6 +28,7 @@ const AppLayout = () => (
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
