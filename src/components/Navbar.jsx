@@ -1,50 +1,58 @@
-import { useRef } from 'react';
-import { IoMdClose } from 'react-icons/io';
-import { HiOutlineBars3 } from 'react-icons/hi2';
-import { navLinks } from '../constants';
+import React, { useState } from 'react';
+import { IconContext } from 'react-icons';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link, NavLink } from 'react-router-dom';
+import styles from '../style';
 
 const Navbar = () => {
-  const navRef = useRef();
+  const [click, setClick] = useState(false);
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle('responsive_nav');
-  };
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   return (
-    <header className="bg-secondary flex items-center justify-between navbar h-[80px] py-0 px-8 text-white">
-      <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full md:ml-9">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile.png?alt=media&token=2cd2797e-0be7-4cfc-9f3f-ed2ea1cb584c"
-          alt="personal photography"
-          className="w-[40px] h-[40px]"
-        />
-      </h3>
-      <nav
-        ref={navRef}
-        className="bg-secondary md:flex md:place-items-center ml-auto"
-      >
-        {navLinks.map((nav) => (
-          <a
-            key={nav.id}
-            href={`#${nav.id}`}
-            className="my-0 mx-8 no-underline"
-            onClick={showNavbar}
-          >
-            {nav.title}
-          </a>
-        ))}
-        <button
-          onClick={showNavbar}
-          className="nav-btn nav-close-btn"
-          type="button"
-        >
-          <IoMdClose />
-        </button>
-      </nav>
-      <button onClick={showNavbar} className="nav-btn" type="button">
-        <HiOutlineBars3 />
-      </button>
-    </header>
+    <>
+      <IconContext.Provider value={{ color: 'rgba(255, 255, 255, 0.7)' }}>
+        <nav className="navbar">
+          <div className="navbar-container container">
+            <Link to="/" className={styles.flexCenter} onClick={closeMobileMenu}>
+              <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full navbar-icon">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile.png?alt=media&token=2cd2797e-0be7-4cfc-9f3f-ed2ea1cb584c"
+                  alt="personal photography"
+                  className="w-[40px] h-[40px]"
+                />
+              </h3>
+            </Link>
+            <div className="menu-icon" onClick={handleClick} role="button" tabIndex={0} onKeyDown={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </div>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className="nav-item">
+                <NavLink to="/" className={({ isActive }) => `nav-links ${isActive ? 'activated' : ''}`} onClick={closeMobileMenu}>
+                  Home
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/projects" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
+                  Projects
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/skills" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
+                  Skills
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/about" className={({ isActive }) => `nav-links ${isActive ? ' activated' : ''}`} onClick={closeMobileMenu}>
+                  About
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </IconContext.Provider>
+    </>
   );
 };
 

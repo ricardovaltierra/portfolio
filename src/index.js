@@ -1,13 +1,59 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+} from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
+import {
+  About,
+  Footer,
+  Navbar,
+  Portfolio,
+  Skills,
+} from './components';
 import './index.css';
+import ErrorPage from './components/ErrorPage';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const AppLayout = () => (
+  <>
+    <Navbar />
+    <Outlet />
+    <Footer />
+  </>
+);
+
+const router = createBrowserRouter([
+  {
+    element: <AppLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/',
+        element: <App />,
+      },
+      {
+        path: '/projects',
+        element: <Portfolio />,
+      },
+      {
+        path: '/skills',
+        element: <Skills />,
+      },
+      {
+        path: '/about',
+        element: <About />,
+      },
+    ],
+  },
+]);
+
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
-      <App />
+      <RouterProvider router={router} />
     </HelmetProvider>
   </React.StrictMode>,
 );

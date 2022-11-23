@@ -4,7 +4,7 @@ import { MdMail } from 'react-icons/md';
 import styles, { layout } from '../style';
 
 const Footer = () => (
-  <section className="flex md:grid grid-cols-2 flex-col pt-[60px] border-t-[1px] border-t-[#3F3E45] mb-12">
+  <section className="flex md:grid grid-cols-2 flex-col pt-[60px] border-t-[1px] border-t-[#3F3E45] mb-12 md:mx-[65px] mx-[1.7rem]">
     <div className={`${styles.flexStart} flex-col md:grid grid-rows-2 md:mb-8 w-full`}>
       <div className="md:w-50 w-full flex-1 flex flex-col justify-start mr-10">
         <h2 className={`${styles.heading2} font-light`}>
@@ -69,7 +69,7 @@ const Footer = () => (
         <h3 className={`${styles.heading2} font-light mb-2.5`}><small>Contact</small></h3>
         <ul className="text-[23px] font-thin text-dimWhite md:flex flex-col space-y-4">
           <li><a href="mailto:ricardo_valtierra@outlook.com" className={styles.linkHover}>Email me</a></li>
-          <li><a href="https://calendly.com/ricardo_valtierra/work-dev-talk" className={styles.linkHover}>Chat with me</a></li>
+          <li><a href="https://calendly.com/ricardo_valtierra/work-dev-chat" className={styles.linkHover}>Chat with me</a></li>
           <li><a href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering" className={styles.linkHover}>Message me</a></li>
         </ul>
       </div>
