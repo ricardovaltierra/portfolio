@@ -62,7 +62,6 @@ code {
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: center;
   list-style: none;
   text-align: center;
   justify-content: flex-end;
@@ -103,7 +102,6 @@ code {
 }
 
 @media screen and (max-width: 965px) {
-
   .container {
     padding-right: 30px;
     padding-left: 30px;
