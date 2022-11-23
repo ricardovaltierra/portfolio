@@ -69,7 +69,7 @@ const Footer = () => (
         <h3 className={`${styles.heading2} font-light mb-2.5`}><small>Contact</small></h3>
         <ul className="text-[23px] font-thin text-dimWhite md:flex flex-col space-y-4">
           <li><a href="mailto:ricardo_valtierra@outlook.com" className={styles.linkHover}>Email me</a></li>
-          <li><a href="https://calendly.com/ricardo_valtierra/work-dev-talk" className={styles.linkHover}>Chat with me</a></li>
+          <li><a href="https://calendly.com/ricardo_valtierra/work-dev-chat" className={styles.linkHover}>Chat with me</a></li>
           <li><a href="https://api.whatsapp.com/send?phone=524776777394&text=Let's talk about software engineering" className={styles.linkHover}>Message me</a></li>
         </ul>
       </div>
