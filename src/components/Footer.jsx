@@ -109,6 +109,16 @@ const Footer = () => (
           <li>
             <a href="https://medium.com/@ricardo_valtierra" target="_blank" rel="noreferrer" className={styles.linkHover}>Medium</a>
           </li>
+          <li>
+            <a
+              href="https://angel.co/ricardo-valtierra"
+              target="_blank"
+              rel="noreferrer"
+              className={`${styles.linkHover} md:hidden flex`}
+            >
+              Wellfound
+            </a>
+          </li>
         </ul>
       </div>
     </div>
