@@ -54,7 +54,7 @@ const Social = () => (
         </a>
       </div>
       <div className={`${styles.icon} md:flex hidden si-container`}>
-        <a href="https://bit.ly/35RxdGT" target="_blank" rel="noreferrer">
+        <a href="https://bit.ly/ricardo-valtierra-resume" target="_blank" rel="noreferrer">
           <AiFillFile />
         </a>
       </div>

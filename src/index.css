@@ -121,6 +121,7 @@ code {
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    font-size: 1.5rem;
   }
 
   .nav-menu.active {
@@ -162,10 +163,10 @@ code {
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
+    top: 0.5rem;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 }
