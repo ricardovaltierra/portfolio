@@ -1,6 +1,7 @@
 import { AiFillFile } from 'react-icons/ai';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import styles, { layout } from '../style';
 
 const Footer = () => (
@@ -76,9 +77,17 @@ const Footer = () => (
       <div className="w-60 md:ml-4">
         <h3 className={`${styles.heading2} font-light mb-2.5 md:mt-0 mt-[60px]`}><small>General</small></h3>
         <ul className="text-[23px] font-thin text-dimWhite md:flex flex-col space-y-4">
-          <li><a href="https://ricardovaltierra.online" className={`${styles.linkHover}`}>About me</a></li>
+          <li>
+            <Link to="/about" className={`${styles.linkHover}`}>
+              About me
+            </Link>
+          </li>
           <li><a href="https://medium.com/@ricardo_valtierra" className={styles.linkHover}>Medium</a></li>
-          <li><a href="https://ricardovaltierra.online" className={styles.linkHover}>Mission & Vision</a></li>
+          <li>
+            <Link to="/mission-&-vision" className={`${styles.linkHover}`}>
+              Mission & Vision
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
