@@ -6,12 +6,11 @@ const About = () => (
     <p className="font worksans font-thin text-dimWhite md:text-[24px] text-[25px] my-5 md:leading-[40.8px] leading-[32.8px]">
       Besides my career development, I enjoy spending my time on a
       variety of activities and projects, such as reading about topics
-      as diverse as general culture, science, and self-improvement.
-      I like to practice some sports like jogging, basketball and
-      anaerobic exercise
+      as diverse as pop culture or neuronal and general sciences
+      I like to practice activities like meditation, anaerobic exercise,
+      and some long walks.
       <br className="mb-10" />
-      In entertainment, I follow a number of comedy and culture genre
-      movies and television shows, I am an aspiring meditator, and
+      Getting immersed into a healthy lifestyle and veganism,
       I spend the rest of my free time exploring new web technologies
     </p>
   </section>
