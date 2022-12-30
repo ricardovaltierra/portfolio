@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Social from './Social';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
+import Contact from './Contact';
 import Footer from './Footer';
 
 export {
@@ -13,5 +14,6 @@ export {
   Social,
   Portfolio,
   Skills,
+  Contact,
   Footer,
 };
