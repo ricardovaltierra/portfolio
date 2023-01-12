@@ -126,7 +126,7 @@ const Footer = () => (
       <p
         className="w-full md:text-[17px] text-[1.1rem] md:text-start text-center text-dimWhite md:font-light font-thin md:tracking-widest"
       >
-        All rights reserved &copy; Ricardo Valtierra 2022.
+        All rights reserved &copy; Ricardo Valtierra 2023.
       </p>
     </div>
   </section>
