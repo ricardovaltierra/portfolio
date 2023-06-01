@@ -58,7 +58,7 @@ const Footer = () => (
             <span className={styles.linkHover}>Wellfound</span>
           </a>
           <a
-            href="https://bit.ly/ricardo-valtierra-resume"
+            href="https://bit.ly/ricardo-v-resume"
             target="_blank"
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
