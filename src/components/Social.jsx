@@ -46,7 +46,7 @@ const Social = () => (
       </div>
       <div className={`${styles.icon} si-container`}>
         <a
-          href="https://api.whatsapp.com/send?phone=16474027030&text=Let's talk about software engineering"
+          href="https://api.whatsapp.com/send?phone=16474027030&text=Hey! Let's talk about software engineering!"
           target="_blank"
           rel="noreferrer"
         >
