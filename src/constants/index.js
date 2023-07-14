@@ -26,7 +26,7 @@ export const projectsContent = [
     paragraph: 'Follow your todo\'s progress',
     stack: ['Rails', 'React', 'Redux'],
     githubLink: 'https://github.com/ricardovaltierra/task-track-app',
-    liveURL: 'ttps://tasktrack.netlify.app/',
+    liveURL: 'https://tasktrack.netlify.app/',
   },
   {
     id: 'alpha_blog',

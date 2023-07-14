@@ -15,26 +15,42 @@ const Card = (project) => {
 
   return (
     <div className="col-auto md:my-12 mb-[60px] md:mx-5 w-full bg-dimWhiteReduced text-dimWhite rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-      <img className="w-full h-40 object-cover rounded-xl opacity-60" src={image} alt={alternativeText} />
+      <img
+        className="w-full h-40 object-cover rounded-xl opacity-60"
+        src={image}
+        alt={alternativeText}
+      />
       <div className="p-2">
-        <h2 className="font-thin text-lg ">
-          {title}
-        </h2>
+        <h2 className="font-thin text-lg ">{title}</h2>
         <p className="text-md text-gr">
           {paragraph}
           {' .'}
           <br />
           {' '}
           <span className="font-light">
-            {stack.map((item, index) => `${item} ${index === stack.length - 1 ? '.' : ', '}`)}
+            {stack.map(
+              (item, index) => `${item} ${index === stack.length - 1 ? '.' : ', '}`,
+            )}
           </span>
         </p>
       </div>
       <div className="flex flex-row m-2 text-[30px] text-primary">
-        <a role="button" href={githubLink} className="bg-dimRose anchor-icons rounded-full p-3 m-2 hover:bg-dimWhite">
+        <a
+          role="button"
+          href={githubLink}
+          className="bg-dimRose anchor-icons rounded-full p-3 m-2 hover:bg-dimWhite"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a role="button" href={liveURL} className="bg-dimRose anchor-icons rounded-full p-3 m-2 hover:bg-dimWhite">
+        <a
+          role="button"
+          href={liveURL}
+          className="bg-dimRose anchor-icons rounded-full p-3 m-2 hover:bg-dimWhite"
+          target="_blank"
+          rel="noreferrer"
+        >
           <DiChrome />
         </a>
       </div>
