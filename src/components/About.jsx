@@ -7,7 +7,7 @@ const About = () => (
       Besides my career development, I enjoy using my time on
       a variety of activities or projects, such as reading
       topics in pop culture, or neuronal and general sciences.
-      Other times you can find me knowing the city. I like
+      Other times you can find me knowing the city better. I like
       to practice activities like meditation, anaerobic exercise,
       and some long walks.
     </p>
