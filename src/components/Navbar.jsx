@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to="/" className={styles.flexCenter} onClick={closeMobileMenu}>
               <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full navbar-icon">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile.png?alt=media&token=2cd2797e-0be7-4cfc-9f3f-ed2ea1cb584c"
+                  src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile_jul_20_2023.png?alt=media&token=836716e8-daac-4fcc-8072-47d6630ef146"
                   alt="personal photography"
                   className="w-[40px] h-[40px]"
                 />
