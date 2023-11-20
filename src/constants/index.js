@@ -36,7 +36,7 @@ export const projectsContent = [
     paragraph: 'Rails site for blog posting',
     stack: ['Rails 6', 'PostgreSQL', 'Heroku'],
     githubLink: 'https://github.com/ricardovaltierra/alpha_blog',
-    liveURL: 'https://analphablog.herokuapp.com/',
+    liveURL: 'https://alpha-blog-rv.fly.dev',
   },
   {
     id: 'sample_app',
