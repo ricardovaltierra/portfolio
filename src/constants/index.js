@@ -46,7 +46,7 @@ export const projectsContent = [
     paragraph: 'A practice from M.H.\' book',
     stack: ['Rails 7', 'Hotwire', 'AWS S3'],
     githubLink: 'https://github.com/ricardovaltierra/sample_app',
-    liveURL: 'https://sample-app-rv.herokuapp.com/',
+    liveURL: 'https://sample-app-rv.fly.dev/',
   },
   {
     id: 'newsweek',
