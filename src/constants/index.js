@@ -30,10 +30,10 @@ export const projectsContent = [
   },
   {
     id: 'leo_publicitarios',
-    image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/leo_publicitarios.png?alt=media&token=0d78b3ab-224d-4ca7-a699-30370034d698',
+    image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/leo_publicitarios.png?alt=media&token=b4e83c5a-f905-424f-bf68-03746952396f',
     alternativeText: 'Leo Publicitarios mock image',
     title: 'Leo Publicitarios',
-    paragraph: 'Landing Page for Advertising Articles Agency',
+    paragraph: 'Landing Page for Agency',
     stack: ['Tailwind', 'HTML', 'CSS'],
     githubLink: 'https://github.com/ricardovaltierra/leo',
     liveURL: 'https://luxury-horse-1a47e8.netlify.app/',
