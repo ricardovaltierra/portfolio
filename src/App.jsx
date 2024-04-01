@@ -1,6 +1,6 @@
 import styles from './style';
 import {
-  Hero, Social, Portfolio, Skills,
+  Hero, Social, Skills,
 } from './components';
 import SEO from './components/SEO';
 
@@ -17,7 +17,6 @@ const App = () => (
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Social />
-          <Portfolio />
           <Skills />
         </div>
       </div>

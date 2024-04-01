@@ -11,7 +11,6 @@ import {
   About,
   Footer,
   Navbar,
-  Portfolio,
   Skills,
 } from './components';
 import './index.css';
@@ -33,10 +32,6 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <App />,
-      },
-      {
-        path: '/projects',
-        element: <Portfolio />,
       },
       {
         path: '/skills',
