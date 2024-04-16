@@ -3,8 +3,8 @@ import {
   FaAngellist,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import styles, { layout } from '../style';
 
@@ -22,13 +22,13 @@ const Footer = () => (
       <div className={`w-full ${layout.section}`}>
         <div className={`${styles.flexBetween} w-full`}>
           <a
-            href="https://twitter.com/RicardoValtie15"
+            href="https://x.com/RicardoValtie15"
             target="_blank"
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
           >
-            <FaTwitter />
-            <span className={styles.linkHover}>Twitter</span>
+            <FaXTwitter />
+            <span className={styles.linkHover}>X</span>
           </a>
           <a
             href="http://www.linkedin.com/in/ricardovaltierra"
