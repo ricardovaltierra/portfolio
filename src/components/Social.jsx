@@ -1,6 +1,7 @@
 import {
-  FaLinkedin, FaGithub, FaXTwitter, FaWhatsapp,
+  FaLinkedin, FaGithub, FaWhatsapp,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { MdMail } from 'react-icons/md';
 import { AiFillFile } from 'react-icons/ai';
 import styles, { layout } from '../style';

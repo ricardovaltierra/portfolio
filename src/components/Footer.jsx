@@ -3,8 +3,8 @@ import {
   FaAngellist,
   FaGithub,
   FaLinkedin,
-  FaX,
 } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 import styles, { layout } from '../style';
 
@@ -27,7 +27,7 @@ const Footer = () => (
             rel="noreferrer"
             className={`${styles.paragraph} ${styles.flexBetween} gap-2 text-[20px] text-dimRose md:hidden flex`}
           >
-            <FaX />
+            <FaXTwitter />
             <span className={styles.linkHover}>X</span>
           </a>
           <a
