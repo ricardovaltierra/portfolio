@@ -1,5 +1,5 @@
 import {
-  FaLinkedin, FaGithub, FaTwitter, FaWhatsapp,
+  FaLinkedin, FaGithub, FaXTwitter, FaWhatsapp,
 } from 'react-icons/fa';
 import { MdMail } from 'react-icons/md';
 import { AiFillFile } from 'react-icons/ai';
@@ -28,11 +28,11 @@ const Social = () => (
       </div>
       <div className={`${styles.icon} md:flex hidden si-container`}>
         <a
-          href="https://twitter.com/RicardoValtie15"
+          href="https://x.com/RicardoValtie15"
           target="_blank"
           rel="noreferrer"
         >
-          <FaTwitter />
+          <FaXTwitter />
         </a>
       </div>
       <div className={`${styles.icon} si-container`}>
