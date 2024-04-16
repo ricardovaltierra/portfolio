@@ -23,7 +23,7 @@ const SEO = () => {
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
 
-      {/* <!-- Twitter --> */}
+      {/* <!-- X --> */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://deploy-preview-8--temporary-portfolio-deploy.netlify.app/" />
       <meta property="twitter:title" content={title} />
