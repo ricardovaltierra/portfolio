@@ -18,14 +18,14 @@ const SEO = () => {
 
       {/* <!-- Open Graph / Facebook --> */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://deploy-preview-8--temporary-portfolio-deploy.netlify.app/" />
+      <meta property="og:url" content="https://ricardovaltierra.online/" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
 
       {/* <!-- X --> */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://deploy-preview-8--temporary-portfolio-deploy.netlify.app/" />
+      <meta property="twitter:url" content="https://ricardovaltierra.online/" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={image} />

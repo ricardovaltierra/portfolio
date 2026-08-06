@@ -67,5 +67,5 @@ export const siteMetadata = {
   siteName: 'ricardovaltierra.online',
   locale: 'en_US',
   author: 'Ricardo Valtierra (who else?)',
-  image: 'https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/linkedin_p.png?alt=media&token=fe3fabb4-01a1-455d-b612-96d5d5bf6b92',
+  image: 'https://res.cloudinary.com/as0yphqi/image/upload/v1786022185/ricardovaltierra.online__iPhone_SE_w4ztjg.png',
 };
