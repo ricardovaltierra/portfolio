@@ -7,11 +7,11 @@ import {
   SiPostgresql,
   SiGit,
   SiDocker,
-  SiHeroku,
   SiLinux,
   SiTailwindcss,
 } from 'react-icons/si';
 import { DiJira } from 'react-icons/di';
+import { AiOutlineSlack } from 'react-icons/ai';
 import styles, { layout } from '../style';
 
 const Skills = () => (
@@ -99,11 +99,11 @@ const Skills = () => (
       </div>
       <div className="wrap md:flex hidden items-center">
         <div className="text-part text-[30px] font-light">
-          Heroku
+          Slack
         </div>
         <div className="image-part">
           <div className={`${styles.icon} ski-container`}>
-            <SiHeroku />
+            <AiOutlineSlack />
           </div>
         </div>
       </div>

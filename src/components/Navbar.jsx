@@ -17,11 +17,13 @@ const Navbar = () => {
           <div className="navbar-container container">
             <Link to="/" className={styles.flexCenter} onClick={closeMobileMenu}>
               <h3 className="border-[2px] border-dimWhite p-[3px] rounded-full navbar-icon">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-e6b7b.appspot.com/o/profile_jul_20_2023.png?alt=media&token=836716e8-daac-4fcc-8072-47d6630ef146"
-                  alt="personal photography"
-                  className="w-[40px] h-[40px]"
-                />
+                <div className="w-12 h-12 rounded-full overflow-hidden">
+                  <img
+                    src="https://res.cloudinary.com/as0yphqi/image/upload/v1786018073/WhatsApp_Image_2026-08-06_at_06.32.48_yczffr.jpg"
+                    alt="🤔"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
               </h3>
             </Link>
             <div className="menu-icon" onClick={handleClick} role="button" tabIndex={0} onKeyDown={handleClick}>
